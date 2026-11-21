@@ -1,0 +1,49 @@
+"use client";
+
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
+import Link from "next/link";
+import { FormattedMessage } from "react-intl";
+import { PageTrail } from "@seed-archive/ui/page-trail";
+
+import { ArchiveBar } from "@/components/archive/ArchiveBar";
+import { ArchiveFooter } from "@/components/archive/ArchiveFooter";
+
+// The Tools menu item's index: every tool of the section, each in a sentence.
+export function ToolsIndex() {
+  return (
+    <>
+      <ArchiveBar />
+      <Container component="main" sx={{ py: 6, minHeight: "70vh" }}>
+        <PageTrail
+          steps={[
+            { name: <FormattedMessage id="archive.home" />, href: "/" },
+            { name: <FormattedMessage id="archive.tools" /> },
+          ]}
+        />
+        <Typography variant="h3" component="h1" gutterBottom>
+          <FormattedMessage id="pages.tools.title" />
+        </Typography>
+        <Typography gutterBottom>
+          <FormattedMessage
+            id="pages.tools.globe"
+            values={{
+              b: (text) => <b>{text}</b>,
+              link: (text) => <Link href="/tools/globe">{text}</Link>,
+            }}
+          />
+        </Typography>
+        <Typography gutterBottom>
+          <FormattedMessage
+            id="pages.tools.map"
+            values={{
+              b: (text) => <b>{text}</b>,
+              link: (text) => <Link href="/tools/map">{text}</Link>,
+            }}
+          />
+        </Typography>
+      </Container>
+      <ArchiveFooter />
+    </>
+  );
+}

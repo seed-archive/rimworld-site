@@ -1,0 +1,117 @@
+{
+  "archive": {
+    "title": "Seed Archive",
+    "game": "RimWorld",
+    "home": "Home",
+    "tools": "Tools",
+    "globe": "Planet",
+    "map": "Colony map",
+    "account": "Account",
+    "signOut": "Sign out",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "releaseNotes": "Release notes",
+    "all": "All {section}"
+  },
+  "settings": {
+    "seed": "Seed",
+    "coverage": "Globe coverage",
+    "normal": "Normal",
+    "rainfall": { "label": "Overall rainfall", "low": "Low", "high": "High" },
+    "temperature": {
+      "label": "Overall temperature",
+      "low": "Low",
+      "high": "High"
+    },
+    "population": {
+      "label": "Population",
+      "low": "Sparse",
+      "high": "Crowded"
+    },
+    "landmarks": { "label": "Landmarks", "low": "Sparse", "high": "Crowded" },
+    "pollution": "Pollution",
+    "size": "Map size",
+    "sizeOption": "{side}×{side} ({cells} cells)",
+    "sizeWarning": "The game warns that maps this large break its balance.",
+    "season": "Starting season",
+    "seasons": {
+      "auto": "Auto",
+      "spring": "Spring",
+      "summer": "Summer",
+      "fall": "Fall",
+      "winter": "Winter"
+    },
+    "dev": "Development mode choices"
+  },
+  "pages": {
+    "notFound": {
+      "title": "This page does not exist",
+      "home": "Back to RimWorld"
+    },
+    "home": {
+      "title": "RimWorld seeds",
+      "lead": "RimWorld planets and maps computed from their seeds. The section is being built.",
+      "toGlobe": "A first look: the <link>test planet</link>."
+    },
+    "tools": {
+      "title": "Tools",
+      "globe": "<b>Test planet.</b> A <link>planet of the game's own tiles</link>: set the world as in a new game and pick a tile; its land is a stand-in, not RimWorld's.",
+      "map": "<b>Test colony map.</b> The <link>map of the tile you picked</link>, in every map size the game offers; its terrain is a stand-in."
+    },
+    "globe": {
+      "title": "Test planet",
+      "lead": "The tiles are the game's; the biomes and hills are a stand-in, not RimWorld's world generation.",
+      "show": "Show",
+      "borders": "Tile borders",
+      "hover": "Point at a tile",
+      "cell": "Tile {id}",
+      "pick": "Click a tile to settle",
+      "picked": "Tile {id}",
+      "latLon": "{lat}°, {lon}°",
+      "mapSeed": "Map seed {seed}",
+      "openMap": "Open the colony map",
+      "water": "Water tiles cannot be settled.",
+      "link": "A colony map is made from the world seed and the tile's number; the map size does not change it. A smaller map shows the corner of a larger one, while geysers, ore and ruins are placed again for each size.",
+      "loading": "Loading…",
+      "classes": {
+        "1": "Ocean",
+        "2": "Shallow water",
+        "3": "Ice",
+        "4": "Tundra",
+        "5": "Boreal forest",
+        "6": "Temperate forest",
+        "7": "Arid shrubland",
+        "8": "Tropical rainforest"
+      },
+      "hills": {
+        "1": "Flat",
+        "2": "Small hills",
+        "3": "Large hills",
+        "4": "Mountainous",
+        "5": "Impassable mountains"
+      }
+    },
+    "map": {
+      "title": "Test colony map",
+      "lead": "The terrain and the geysers are a stand-in, not RimWorld's map generation.",
+      "noTile": "Pick a tile on the planet first.",
+      "where": "Seed {seed}, tile {tile}, {biome}",
+      "toGlobe": "Back to the planet",
+      "pin": "Pin",
+      "removePin": "Remove pin",
+      "length": "{n} cells",
+      "places": { "geyser": "Steam geyser" },
+      "terrain": {
+        "1": "Deep water",
+        "2": "Shallow water",
+        "3": "Marsh",
+        "4": "Sand",
+        "5": "Soil",
+        "6": "Rich soil",
+        "7": "Gravel",
+        "8": "Ice",
+        "9": "Rock"
+      }
+    }
+  }
+}
